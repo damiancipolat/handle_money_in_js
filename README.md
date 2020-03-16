@@ -21,10 +21,12 @@ NOT! It happens exactly in python and JAVA:
 
 ### **Python code:**
 The same situation in **python**.
+
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/python.png?raw=true" width="600px"/>
 
 ### **Java code:**
 The same situation in **JAVA**!!
+
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/java.png?raw=true" width="600px"/>
 
 These two languages ​​are reliable to work with numbers, surely yes! so jS too. They all use the IEEE 754 standard.
