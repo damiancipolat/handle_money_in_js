@@ -29,7 +29,10 @@ The same situation in **JAVA**!!
 
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/java.png?raw=true" width="600px"/>
 
-These two languages ​​are reliable to work with numbers, surely yes! so jS too. They all use the IEEE 754 standard.
+### Surprised?
+<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/yes.gif?raw=true" width="600px"/>
+
+These two languages are reliable to work with numbers, surely yes! so jS too. They all use the IEEE 754 standard.
 
 ## How to handle money?
 Use decimals and floating point is the best way? I think it is the **most natural** way when we think about it, but
