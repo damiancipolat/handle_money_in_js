@@ -27,7 +27,7 @@ The same situation in **python**.
 ### **Java code:**
 The same situation in **JAVA**!!
 
-<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/java.png?raw=true" width="600px"/>
+<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/java-script.png?raw=true" width="600px"/>
 
 ### Surprised?
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/yes.gif?raw=true" align="center" width="300px"/>
