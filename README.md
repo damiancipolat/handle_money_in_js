@@ -74,10 +74,10 @@ We have to add two values 0.2 and 0.1, if we do it directly with JS we already k
 
 #### Code:
 There are several ways we can use libraries like:
-- Dinero.js
-- Financial.js
-- Money.js
-- https://github.com/ericelliott/moneysafe
+- Dinero.js, https://dinerojs.com/
+- Finance.js, http://financejs.org/
+- Money.js, https://www.npmjs.com/package/moneyjs
+- Money Safe. https://github.com/ericelliott/moneysafe
 
 Or perform a custom implementation ourselves, if we do we will have to worry about giving support
 to these operations. For the moment, we are going to avoid making conversions to other types of currency.
@@ -90,7 +90,7 @@ to these operations. For the moment, we are going to avoid making conversions to
 - Minor / Less equal
 - Greater / Greater equal.
 
-In this link you can see an implementation made by me in vanilla JS of this..
+In this link you can see an implementation made by me in vanilla JS of this.
 .
 .
 .
@@ -100,11 +100,24 @@ ejemplos
 .
 .
 
-Basically magic consists of 4 functions:
-1
-2
-3
-4
+Basically magic consists in some basic functions:
+```javascript
+
+const Money = (ammount, value) => ammount?{ammount,value:ammount*100}:{ammount:value/100,value};
+
+//Sum function.
+const sum = (a,b) => Money(null,a.value+b.value);
+
+//Payment
+const payment = Money(30.342141);
+
+//Bill
+const bill = Money(30.342141);
+
+//Test
+sum(payment,bill) = {ammount: 60.684282, value: 6068.4282}
+
+```
 
 There is no need for major operations to work with money in a simple system.
 
