@@ -62,7 +62,22 @@ There is a technique to solve these problems and it is simple, maybe not the bes
 and effective. We can transform a decimal value into its representation in cents. In this way we avoid
 floating point details.
 
-### Problems with this?
+```sh
+EXPECTED RESULT
+===============
+1     ===   $0.01;
+10    ===   $0.10;
+100   ===   $1.00;
+1000  ===  $10.00;
+10000 === $100.00;
+
+$1.00 *  $0.01 ===  $0.01
+$1.00 *  $0.10 ===  $0.10
+$1.00 *  $1.00 ===  $1.00
+$1.00 * $10.00 === $10.00
+```
+
+### Problems with use INTEGERS?
 - We do extra operations.
 - JS does not offer an infinite range of integers Number.MIN_SAFE_INTEGER and Number.MAX_SAFE_INTEGER.
 
