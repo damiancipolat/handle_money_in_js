@@ -141,3 +141,28 @@ Number.MIN_SAFE_INTEGER = -9007199254740991
 Number.MAX_SAFE_INTEGER = 9007199254740991
 
 Outside this range, accurate results cannot be assured.
+
+## Continure reading
+This list of links, was the material used for this project, there are very interesting articles abount number in JS and after how to use it for handle money.
+
+**Numbers**
+- https://youtu.be/MqHDDtVYJRI
+- https://medium.com/@sarafecadu/javascript-numbers-and-the-mystery-0s-b087c5cf21e2
+- https://medium.com/@sarafecadu/64-bit-floating-point-a-javascript-story-fa6aad266665
+- http://2ality.com/2012/04/number-encoding.html
+- http://speakingjs.com/es5/ch11.html
+- https://2ality.com/2012/03/displaying-numbers.html
+- https://2ality.com/2012/02/nan-infinity.html
+- https://2ality.com/2012/03/signedzero.html
+- https://2ality.com/2012/01/object-plus-object.html
+- https://2ality.com/2012/02/js-integers.html
+- http://speakingjs.com/es5/ch11.html
+
+**Money**
+- https://stackoverflow.com/questions/2876536/precise-financial-calculation-in-javascript-what-are-the-gotchas
+- https://medium.com/@magnusjt/how-to-handle-money-in-javascript-b954d612373c
+- https://frontstuff.io/how-to-handle-monetary-values-in-javascript
+- https://itnext.io/how-to-build-a-money-data-type-in-javascript-7b622beabe00
+- https://husobee.github.io/money/float/2016/09/23/never-use-floats-for-currency.html
+
+
