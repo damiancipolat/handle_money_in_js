@@ -58,6 +58,8 @@ As you can see in this example, you would need to perform rounding yourself to g
 Well there is a pattern created by Martin fowler https://martinfowler.com/eaaCatalog/money.html, in which
 Money is considered as a type of data and not just a simple number.
 
+<img src="https://martinfowler.com/eaaCatalog/moneySketch.gif"/>
+
 There is a technique to solve these problems and it is simple, maybe not the best, but it is simple to develop.
 and effective. We can transform a decimal value into its representation in cents. In this way we avoid
 floating point details.
