@@ -3,12 +3,12 @@
 # Handle money with JS
 Differentes ways of how to handle money values using JS, some recommended libraries and a custom implementation
 
-I makes this project because I consider that it is necessary to demonstrate how JS can be a technology
-Reliable to use in systems that handle money. JS is not known to have the best reputation
+I makes this project because I consider that it is necessary to demonstrate how JS 
+can be a technology reliable to use in systems that handle money. JS is not known to have the best reputation
 in what is the handling of numbers, this in part is due to certain inaccuracies in operations
 floating point.
 
-Origin: surely everyone saw this example: 0.1 + 0.2 = 0.30000000000000004, wow it is something very rare and one would say
+**Origin**: surely everyone saw this example: 0.1 + 0.2 = 0.30000000000000004, wow it is something very rare and one would say
 WTF? But why is this happening? This is due to the IEEE 754 standard, which proposes the use of point numbers
 floating binary. I am not going to explain here about this standard, there are hundreds of links that have already
 done I leave some.
