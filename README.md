@@ -19,12 +19,12 @@ done I leave some.
 ## Does this happen only in JS? 
 NOT! It happens exactly in python and JAVA:
 
-**Python code:**
+### **Python code:**
 The same situation in python.
 
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/python.png?raw=true" width="600px"/>
 
-**Java code:**
+### **Java code:**
 The same situation in JAVA!!
 
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/java.png?raw=true" width="600px"/>
