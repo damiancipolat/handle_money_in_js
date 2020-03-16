@@ -90,15 +90,10 @@ to these operations. For the moment, we are going to avoid making conversions to
 - Minor / Less equal
 - Greater / Greater equal.
 
-In this link you can see an implementation made by me in vanilla JS of this.
-.
-.
-.
-.
-. 
-ejemplos
-.
-.
+In this link you can see an implementation made by me in vanilla JS of this. https://github.com/damiancipolat/handle_money_in_js/blob/master/simple_money.js
+```javascript
+----
+```
 
 Basically magic consists in some basic functions:
 ```javascript
