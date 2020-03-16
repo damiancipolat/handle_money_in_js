@@ -17,7 +17,7 @@ done I leave some.
 - https://en.wikipedia.org/wiki/IEEE_754
 
 ## Does this happen only in JS? 
-NOT! It happens exactly in python and JAVA:
+NO! It happens exactly in python and JAVA:
 
 ### **Python code:**
 The same situation in **python**.
