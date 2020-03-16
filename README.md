@@ -168,22 +168,16 @@ There is no need for major operations to work with money in a simple system.
 ## Strings and money.
 In several countries the representation of money is not standard and differs from how it is in the USA, so how is it handled?
 
-It is very common to have a field in our frontend to deposit money. For example in Argentina, money is represented:
-$ 100,000.85 the "." Is used as a thousands separator and the "," to separate decimals.
+It is very common to have a field in our frontend to deposit money. For example in Argentina, money is represented: $ 100,000.85 the "." Is used as a thousands separator and the "," to separate decimals.
 
-It is very convenient in this case, to take the money to the same way that is how JS uses it.
-$ 100,000.85 -> 100000.85 with two decimal digits, with this we can save it to our BD or use it
-for calculations. I call this normalization and it is important that you keep that in mind.
+It is very convenient in this case, to take the money to the same way that is how JS uses it. $ 100,000.85 -> 100000.85 with two decimal digits, with this we can save it to our BD or use it for calculations. I call this normalization and it is important that you keep that in mind.
 
-Now having said that we should use the monetary value as its representation in cents,
-We can also choose to save it in this same form in a bd or to do operations.
+Now having said that we should use the monetary value as its representation in cents, We can also choose to save it in this same form in a bd or to do operations.
 
 ## Round out:
-Use two numbers, three numbers? the reality that that depends on the system we are using,
-in general it is usually rounded up and with two numbers. Math.floor (). The advantage of using pennies is that it gives us a
-greater degree of certainty than if we used decimals.
+Use two numbers, three numbers? the reality that that depends on the system we are using, in general it is usually rounded up and with two numbers. Math.floor (). The advantage of using pennies is that it gives us a greater degree of certainty than if we used decimals.
 
-EYE! In JS the integers are not infinite, numerical representations can be made between these two values.
+Caution! In JS the integers are not infinite, numerical representations can be made between these two values.
 
 Number.MIN_SAFE_INTEGER = -9007199254740991
 Number.MAX_SAFE_INTEGER = 9007199254740991
@@ -212,5 +206,3 @@ This list of links, was the material used for this project, there are very inter
 - https://frontstuff.io/how-to-handle-monetary-values-in-javascript
 - https://itnext.io/how-to-build-a-money-data-type-in-javascript-7b622beabe00
 - https://husobee.github.io/money/float/2016/09/23/never-use-floats-for-currency.html
-
-
