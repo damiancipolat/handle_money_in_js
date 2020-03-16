@@ -28,9 +28,24 @@ codigo java
 These two languages ​​are reliable to work with numbers, surely yes! so jS too. They all use the ieee 754 standard.
 
 ## How to handle money?
-Using decimals and floating point is the best way? I think it is the most natural when thinking, but
+Use decimals and floating point is the best way? I think it is the **most natural** way when we think about it, but
 not necessarily the best, due to the imprecision and rounding of this standard. Here you can read a little about
-this <link>.
+this https://husobee.github.io/money/float/2016/09/23/never-use-floats-for-currency.html.
+
+**Example:**
+I sell 165 apples at $1.40 per apple. My accounting software uses floating point numbers for the calculation.
+
+```sh
+>>> 165 * 1.40
+230.99999999999997
+```
+
+As you can see in this example, you would need to perform rounding yourself to get the correct number. Here is another common example, you are changing the the price of bananas from $1.01 to $0.99 and need to calculate the lost revenue.
+
+```sh
+>>> 1.01 - 0.99
+0.020000000000000018
+```
 
 ## Then what do I do?
 Well there is a pattern created by Martin fowler https://martinfowler.com/eaaCatalog/money.html, in which
@@ -55,6 +70,7 @@ There are several ways we can use libraries like:
 - Dinero.js
 - Financial.js
 - Money.js
+- https://github.com/ericelliott/moneysafe
 
 Or perform a custom implementation ourselves, if we do we will have to worry about giving support
 to these operations. For the moment, we are going to avoid making conversions to other types of currency.
