@@ -141,13 +141,3 @@ Number.MIN_SAFE_INTEGER = -9007199254740991
 Number.MAX_SAFE_INTEGER = 9007199254740991
 
 Outside this range, accurate results cannot be assured.
-
-## FINTECH:
-What happens in fintech industries that use JS and manage money,
-well they know about these limitations of JS and they opt for similar strategies, although I have seen
-In several cases, which is a subject that is not given great importance, companies
-They are willing to lose pennies because of rounding.
-
-In practice, it works with decimals of many digits and is rounded without any criteria, or is usually used
-String methods to comment with numbers what I consider a serious practice, STRINGS and Numbers should not be mixed
-and then do a casting. I have worked on several projects and this path has led me to a successful conclusion.
