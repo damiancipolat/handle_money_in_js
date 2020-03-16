@@ -20,10 +20,10 @@ done I leave some.
 NOT! It happens exactly in python and JAVA:
 
 **Python code:**
-<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/python.png?raw=true" width="900px"/>
+<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/python.png?raw=true" width="400px"/>
 
 **Java code:**
-<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/java.png?raw=true" width="900px"/>
+<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/java.png?raw=true" width="400px"/>
 
 These two languages ​​are reliable to work with numbers, surely yes! so jS too. They all use the ieee 754 standard.
 
