@@ -1,5 +1,6 @@
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/js-logo.png?raw=true" width="150px" align="right" />
 
+
 # Handle money with JS
 Differentes ways of how to handle money values using JS, some recommended libraries and a custom implementation
 
