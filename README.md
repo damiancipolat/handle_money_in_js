@@ -32,7 +32,7 @@ The same situation in **JAVA**!!
 ### Surprised?
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/yes.gif?raw=true" align="center" width="300px"/>
 
-These two languages are reliable to work with numbers, surely yes! so jS too. They all use the IEEE 754 standard.
+These two languages are reliable to work with numbers, surely yes! so javascript too. They all use the IEEE 754 standard.
 
 ## How to handle money?
 Use decimals and floating point is the best way? I think it is the **most natural** way when we think about it, but
@@ -67,7 +67,7 @@ floating point details.
 - JS does not offer an infinite range of integers Number.MIN_SAFE_INTEGER and Number.MAX_SAFE_INTEGER.
 
 ### How to do this?
-We have to add two values ​​0.2 and 0.1, if we do it directly with JS we already know that there will be problems.
+We have to add two values 0.2 and 0.1, if we do it directly with JS we already know that there will be problems.
 
 1) Multiply each value by 100: (0.2 * 100 + 0.1 * 100) = 30 cents.
 2) Recover the value to money: (0.2 * 100 + 0.1 * 100) / 100 = 0.3.
