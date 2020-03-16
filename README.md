@@ -30,7 +30,7 @@ The same situation in **JAVA**!!
 <img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/java.png?raw=true" width="600px"/>
 
 ### Surprised?
-<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/yes.gif?raw=true" width="200px"/>
+<img src="https://github.com/damiancipolat/handle_money_in_js/blob/master/doc/yes.gif?raw=true" align="center" width="300px"/>
 
 These two languages are reliable to work with numbers, surely yes! so jS too. They all use the IEEE 754 standard.
 
