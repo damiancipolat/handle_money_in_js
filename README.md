@@ -4,7 +4,7 @@
 Differentes ways of how to handle money values using JS, some recommended libraries and a custom implementation
 
 I makes this project because I consider that it is necessary to demonstrate how JS 
-can be a technology reliable to use in systems that handle money. JS is not known to have the best reputation
+can be a **technology reliable to use in systems that handle money**.JS is not known to have the best reputation
 in what is the handling of numbers, this in part is due to certain inaccuracies in operations
 floating point.
 
