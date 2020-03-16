@@ -107,7 +107,38 @@ to these operations. For the moment, we are going to avoid making conversions to
 
 In this link you can see an implementation made by me in vanilla JS of this. https://github.com/damiancipolat/handle_money_in_js/blob/master/simple_money.js
 ```javascript
-----
+const {
+	money,
+	isEqual,
+	isGt,
+	add,
+	sub,
+	mul	
+} = require('./simple_money.js');
+
+const payment = money(100.20);
+const loan	  = money(15000);
+const bill 	  = money(6000);
+const debth	  = money(2000.60);
+
+const addRes = add(payment,bill);
+console.log(`${payment.number} + ${bill.number} = ${addRes.number}`);
+
+const subRes = sub(loan,debth);
+console.log(`${loan.number} + ${debth.number} = ${subRes.number}`);
+
+console.log(`${payment.number} + ${debth.number} = `,isEqual(payment,bill));
+console.log(`${payment.number} + ${payment.number} = `,isEqual(payment,payment));
+```
+
+**To run**:
+
+```sh
+$ node test.js
+100.2 + 6000 = 6100.2
+15000 + 2000.6 = 12999.4
+100.2 + 2000.6 =  false
+100.2 + 100.2 =  true
 ```
 
 Basically magic consists in some basic functions:
